@@ -1,0 +1,7 @@
+
+Defition::
+z-index is a CSS property used to control the stacking order of elements in a web page. 
+It determines which elements are displayed in front of or behind others, especially 
+when they overlap. Elements with a higher z-index value appear in front of elements with a 
+lower z-index value.
+

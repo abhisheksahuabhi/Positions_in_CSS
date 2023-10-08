@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            position: relative;
+            border:2px solid black;
+            width: 100%s;
+            height: 100vh;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            border:1px solid grey;
+            background-color: aquamarine;
+            text-align: center;
+            position: absolute;
+        }
+        .box-A{
+          
+            left:200px;
+            top: 200px;
+        }
+        .box-B{
+            left: calc(13% - 30px);
+            top: calc(29% - 30px);
+
+        }
+        .box-C{
+
+            right: calc(74% - 30px);
+            top: calc(29% - 30px);
+        }
+        .box-D{
+            
+            left: calc(13% - 30px);
+            bottom: calc(44% - 30px);
+            
+        }
+        .box-E{
+            
+            right: calc(74% - 30px);
+            bottom: calc(44% - 30px);
+           
+        }
+    </style>
+    <title>Position</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box box-A">A</div>
+        <div class="box box-B">B</div>
+        <div class="box box-C">C</div>
+        <div class="box box-D">D</div>
+        <div class="box box-E">E</div>
+    </div>
+    
+</body>
+</html>
